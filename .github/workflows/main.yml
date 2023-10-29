@@ -24,6 +24,7 @@ jobs:
         with:
           repository: "mrrfv/cloudflare-gateway-pihole-scripts"
           ref: "v1"
+      - uses: gautamkrishnar/keepalive-workflow@v1
 
       - name: Install Node.js
         uses: actions/setup-node@v3
